@@ -143,9 +143,7 @@ module.exports = {
     inline: true,
     historyApiFallback: {
       disableDotRule: true
-    },
-    stats: 'minimal',
-    clientLogLevel: 'warning'
+    }
   },
   // https://webpack.js.org/configuration/devtool/
   devtool: isProduction ? 'hidden-source-map' : 'cheap-module-eval-source-map',
